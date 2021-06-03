@@ -292,7 +292,7 @@ def pageNotFound( e ):
 
 # Only needed if Flask run is not used to execute the server
 if __name__ == "__main__":
-    app.run( host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0')
 
 #if __name__ == '__main__':
 #    app.run()
